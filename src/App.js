@@ -5,22 +5,23 @@ export default function App() {
     <div style={{ backgroundColor: "#000", color: "#fff", fontFamily: "sans-serif" }}>
       {/* Home Section */}
       <section style={{
-        height: "100vh",
-        display: "flex",
-        flexDirection: "column",
-        justifyContent: "center",
-        alignItems: "center",
-        backgroundImage: "url('https://images.unsplash.com/photo-1600891964599-f61ba0e24092')",
-        backgroundSize: "cover",
-        backgroundPosition: "center"
-      }}>
-        <motion.h1 initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1 }} style={{ fontSize: "3rem", fontWeight: "bold", marginBottom: "1rem" }}>
-          Добредојдовте во Месара Боно
-        </motion.h1>
-        <motion.a href="#catalog" whileHover={{ scale: 1.1 }} style={{ backgroundColor: "#8b0000", padding: "1rem 2rem", borderRadius: "999px", color: "#fff", fontWeight: "600", textDecoration: "none" }}>
-          Види Каталог
-        </motion.a>
-      </section>
+  height: "100vh",
+  display: "flex",
+  flexDirection: "column",
+  justifyContent: "center",
+  alignItems: "center",
+  backgroundImage: "url('https://images.unsplash.com/photo-1604908554161-3f3fdf27a80a')",
+  backgroundSize: "cover",
+  backgroundPosition: "center"
+}}>
+  <motion.h1 initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1 }} style={{ fontSize: "3rem", fontWeight: "bold", marginBottom: "1rem", textShadow: "2px 2px 5px #000" }}>
+    Добредојдовте во Месара Боно
+  </motion.h1>
+  <motion.a href="#catalog" whileHover={{ scale: 1.1 }} style={{ backgroundColor: "#8b0000", padding: "1rem 2rem", borderRadius: "999px", color: "#fff", fontWeight: "600", textDecoration: "none" }}>
+    Види Каталог
+  </motion.a>
+</section>
+
 
       {/* Catalog Section */}
       <section id="catalog" style={{ padding: "4rem 1.5rem", backgroundImage: "url('https://images.unsplash.com/photo-1604186837225-6f9b3f3e5a4b')", backgroundSize: "cover", backgroundPosition: "center" }}>
