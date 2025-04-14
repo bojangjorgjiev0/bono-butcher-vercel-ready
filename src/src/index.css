@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #111;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+.container {
+  border: 20px solid transparent;
+  padding: 0;
+  border-image: url('/images/brick-frame.png') 30 round;
+  min-height: 100vh;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.awning {
+  background: url('/images/awning.png') no-repeat center;
+  background-size: cover;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.awning h1 {
+  font-size: 36px;
+  color: white;
+  text-shadow: 2px 2px 5px #000;
+  margin: 0;
+}
+
+.shop-window {
+  background: #111 url('/images/shop-glass.png') center no-repeat;
+  background-size: cover;
+  padding: 30px;
+  position: relative;
+}
+
+.frame {
+  background: url('/images/wood-frame.png') no-repeat center;
+  background-size: contain;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.product-display img {
+  width: 200px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.6);
+  background-color: white;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #222;
+  border-top: 2px solid #444;
+}
+
+.decorations {
+  position: absolute;
+  left: 0;
+  top: 120px;
+  bottom: 0;
+  width: 100px;
+  background: url('/images/plants.png') no-repeat center;
+  background-size: contain;
+}
+
+.decorations.right {
+  left: auto;
+  right: 0;
+}
