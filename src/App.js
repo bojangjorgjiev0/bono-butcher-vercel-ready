@@ -10,7 +10,7 @@ export default function App() {
   flexDirection: "column",
   justifyContent: "center",
   alignItems: "center",
-  backgroundImage: "url('https://images.unsplash.com/photo-1604908554161-3f3fdf27a80a')",
+backgroundImage: "url('https://images.unsplash.com/photo-1604908554161-3f3fdf27a80a')"
   backgroundSize: "cover",
   backgroundPosition: "center"
 }}>
