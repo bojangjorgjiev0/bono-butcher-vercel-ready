@@ -64,21 +64,24 @@ export default function App() {
       </section>
 
       {/* Contact Section */}
-      <section style={{ padding: "4rem 1.5rem", backgroundColor: "#000", textAlign: "center" }}>
-        <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 1 }} style={{ maxWidth: "600px", margin: "0 auto" }}>
-          <h2 style={{ fontSize: "2.5rem", fontWeight: "bold", marginBottom: "1rem" }}>Контакт</h2>
-          <p>📍 Ѓорче Петров, Скопје</p>
-          <p style={{ marginBottom: "1.5rem" }}>📞 070 123 456</p>
-          <form style={{ display: "grid", gap: "1rem" }}>
-            <input type="text" placeholder="Вашето име" style={{ padding: "1rem", borderRadius: "0.5rem", backgroundColor: "#222", color: "#fff", border: "none" }} />
-            <input type="text" placeholder="Телефон или емаил" style={{ padding: "1rem", borderRadius: "0.5rem", backgroundColor: "#222", color: "#fff", border: "none" }} />
-            <textarea placeholder="Порака" rows="4" style={{ padding: "1rem", borderRadius: "0.5rem", backgroundColor: "#222", color: "#fff", border: "none" }}></textarea>
-            <button type="submit" style={{ backgroundColor: "#8b0000", color: "#fff", padding: "1rem", borderRadius: "0.5rem", fontWeight: "bold", border: "none" }}>
-              Испрати
-            </button>
-          </form>
-        </motion.div>
-      </section>
-    </div>
+<section style={{ padding: "4rem 1.5rem", backgroundColor: "#000", textAlign: "center" }}>
+  <h2 style={{ fontSize: "2.5rem", fontWeight: "bold", marginBottom: "1rem" }}>Контакт</h2>
+  <p style={{ fontSize: "1.1rem" }}>📞 070 123 456</p>
+  <p style={{ fontSize: "1.1rem" }}>📞 078 654 321</p>
+  <p style={{ fontSize: "1.1rem", marginBottom: "1.5rem" }}>📍 Ѓорче Петров, Скопје</p>
+
+  <div style={{ marginTop: "2rem" }}>
+    <iframe
+      title="Месара Боно локација"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2963.035019135701!2d21.37458631534357!3d42.00287457921261!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1354159c31563b61%3A0x7a062fa6edb7d3a6!2z0JzQtdC70L7QvNCwINCf0L7QtNC-0LLQsCDQm9C10YDQvNCw!5e0!3m2!1smk!2smk!4v1617870800000!5m2!1smk!2smk"
+      width="100%"
+      height="300"
+      style={{ border: 0, borderRadius: "1rem" }}
+      allowFullScreen=""
+      loading="lazy"
+    ></iframe>
+  </div>
+</section>
+
   );
 }
